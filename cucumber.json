@@ -1,0 +1,5 @@
+{
+    "default": {
+        "paths": ["Tests/UI_Test/Feature/"]
+    }
+}
