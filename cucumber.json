@@ -1,5 +1,15 @@
 {
     "default": {
-        "paths": ["Tests/UI_Test/Feature/"]
+        "formatOptions":{
+            "snippetInterface": "async-await"
+        },
+        "paths": ["Tests/UI_Test/Feature/"],
+        "publishQueit": true,
+        "require" : [
+            "Tests/UI_Test/steps/"
+        ],
+        "requireModule": [
+            "ts-mode/register"
+        ]
     }
 }
