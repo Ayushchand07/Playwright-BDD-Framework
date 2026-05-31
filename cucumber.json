@@ -5,11 +5,12 @@
         },
         "paths": ["Tests/UI_Test/Feature/"],
         "publishQueit": true,
+        "dryRun" :false,
         "require" : [
-            "Tests/UI_Test/steps/"
+            "Tests/UI_Test/steps/*.ts"
         ],
         "requireModule": [
-            "ts-mode/register"
+            "ts-node/register"
         ]
     }
 }
